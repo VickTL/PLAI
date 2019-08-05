@@ -1,6 +1,6 @@
-## PLAI
+# PLAI
 
-# ES
+#### ES
 **PLAI** (*Persona, Lugar, Acción, Inspiración*) es una herramienta pensada para creadores de todo tipo que necesiten una dosis de inspiración que no limite su creatividad.
 
 La idea es crear un sistema que permita generar ideas aleatorias, pero de forma que el mismo creador las interprete y las adapte a sus universos e imaginarios, sin leerlas de forma literal.
