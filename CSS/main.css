@@ -1,0 +1,53 @@
+/* General stuff */
+body {
+  background-color: #E8D2E7;
+}
+
+/* Main Menu */
+.main_menu {
+  position: relative;
+}
+
+.main_menu_content {
+  /* Vertically centered, requires stated height */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+}
+
+.PLAI_logo {
+  text-align: center;
+}
+
+.PLAI_logo img {
+  width: 50%;
+  max-width: 500px;
+  margin: 2.5%;
+}
+
+/* Botones general */
+button {
+  padding: 1em;
+  border-radius: 15pt;
+  border: 2pt solid black;
+  background-color: #E8D2E7;
+  margin: 2.5%;
+}
+
+button:hover {
+  background-color: white;
+}
+
+button:active {
+  background-color: black;
+  color: white;
+}
+
+button[name=btwide] {
+    width: 95%;
+}
