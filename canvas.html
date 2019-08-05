@@ -4,11 +4,55 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/text.css">
+    <link rel="stylesheet" href="CSS/cards.css">
     <script type="text/javascript" src="JS/main.js"></script>
 
     <title>PLAI</title>
   </head>
   <body>
-    aaaaa
+    <div class="canvas">
+
+      <div class="column" id="redCards">
+        <div class="card _red"></div>
+        <div class="card _red"></div>
+      </div>
+
+      <div class="column" id="blueCards">
+        <div class="card _blue"></div>
+      </div>
+
+      <div class="column" id="greenCards">
+        <div class="card _green"></div>
+      </div>
+
+    </div>
+
+
+    <div class="selector">
+      <div class="decks">
+
+        <div class="column" id="redDecks">
+          <div class="newCard_red" onclick="newCard('red')">
+            <div class="deck _red"></div>
+            <div class="card _red"></div>
+          </div>
+        </div>
+
+        <div class="column" id="blueDecks">
+          <div class="newCard_blue" onclick="newCard('blue')">
+            <div class="deck _blue"></div>
+            <div class="card _blue"></div>
+          </div>
+        </div>
+
+        <div class="column" id="greenDecks">
+          <div class="newCard_green" onclick="newCard('green')">
+            <div class="deck _green"></div>
+            <div class="card _green"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </body>
 </html>

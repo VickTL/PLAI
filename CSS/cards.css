@@ -1,0 +1,66 @@
+/* Main divisions */
+.canvas {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.selector {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+
+  border-top: 2pt solid black;
+  height: 33%;
+}
+
+/* Structure */
+.column {
+  display: inline-block;
+}
+
+.decks {
+  margin: 5%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Objects */
+.card {
+  border: 2pt solid black;
+  border-radius: 15pt;
+  height: 16.6em;
+  width: 11.6em;
+
+  /* Stacking cards on the canvas */
+  margin-bottom: -75%;
+}
+
+.card:hover {
+  border: 3pt solid black;
+}
+
+.deck {
+  border: 2pt solid black;
+  border-bottom: 20pt solid black;
+  border-radius: 15pt;
+  height: 16em;
+  width: 11.6em;
+
+  margin-bottom: -150%;
+}
+
+/* Colors */
+._red {
+  background-color: #963d1f;
+}
+
+._blue {
+  background-color: #80b3e3;
+}
+
+._green {
+  background-color: #a4c036;
+}
