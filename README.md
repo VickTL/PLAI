@@ -15,4 +15,6 @@ Hemos dividido las imágenes en tres temáticas diferentes, que son:
 
 Las cuales tienen una gran biblioteca de imágenes detrás para generar infinitas combinaciones.
 
+*Esta web está en fase de desarrollo temprano.*
+
 ## Creado por Juan Sevilla y Miguel Reyes
